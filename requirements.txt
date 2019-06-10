@@ -1,0 +1,7 @@
+Django==1.11.20
+Pillow
+pytz
+python3-memcached
+django-smtp-ssl
+mysqlclient
+#qiniu

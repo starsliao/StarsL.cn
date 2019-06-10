@@ -1,0 +1,9 @@
+### Django ###
+*.log
+*.pot
+*.swp
+*.pyc
+__pycache__/
+local_settings.py
+TOOLS/163md_BAK/
+vmaig_blog/settings.py

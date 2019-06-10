@@ -1,0 +1,13 @@
+<script language=javascript>
+var image=new Array(5)
+        image.length=5
+        image[1]="https://cloud.tencent.com/redirect.php?redirect=1036&cps_key=22feab2385889c2606c9a174a46d3e18&from=console"
+        image[2]="https://cloud.tencent.com/redirect.php?redirect=1025&cps_key=22feab2385889c2606c9a174a46d3e18&from=console"
+        image[3]="https://cloud.tencent.com/redirect.php?redirect=1014&cps_key=22feab2385889c2606c9a174a46d3e18&from=console"
+        image[4]="https://www.aliyun.com/acts/product-section-2019/new-users?userCode=w4ld1yc6"
+        image[5]="https://promotion.aliyun.com/ntms/act/qwbk.html?userCode=w4ld1yc6"
+
+        id=Math.round(Math.random()*4)+1
+        imageurl=image[id]
+        document.write("<div id=\"vmaig-search\"><div class=\"search\"><a href="+imageurl+" target=\"_blank\">"+"<img src=/static/img/cloud/"+id+".jpg width=\"100%\" border=\"0\"></a></div></div>")
+</script>
