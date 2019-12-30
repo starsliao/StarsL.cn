@@ -15,7 +15,7 @@ python manage.py migrate
 python manage.py createsuperuser
 python manage.py runserver 0.0.0.0:80
 gunicorn -w 4 -b unix:/etc/nginx/starsl.sock vmaig_blog.wsgi -D
-/data/venv/bin/python3.6 /data/venv/bin/gunicorn -c /data/venv/StarsL.cn/gunicorn.conf vmaig_blog.wsgi
+/data/venv/bin/python3.6 /data/venv/bin/gunicorn -c /data/venv/StarsL.cn/gunicorn.conf.py vmaig_blog.wsgi --reload
 ```
 
 ### 修改整体宽度的css标签
