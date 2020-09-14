@@ -15,7 +15,7 @@ for i in range(15):
     url = d['entries'][i]['id']
     if 'cnbeta.com' in url:
         insert_sql = f"INSERT INTO `starsl.cn`.blog_news(title, summary, news_from, url, create_time, pub_time) VALUES ('{txt}', '', {num}, '{url}', '{now}', '{now}')"
-#    print(insert_sql)
+        #print(insert_sql)
         cur.execute(insert_sql)
 conn.commit()
 cur.close()

@@ -75,7 +75,8 @@ class IndexView(BaseMixin, ListView):
         return super(IndexView, self).get_context_data(**kwargs)
 
     def get_queryset(self):
-        article_list = Article.objects.filter(status=0).order_by('?')
+        #article_list = Article.objects.filter(status=0).order_by('?')
+        article_list = Article.objects.filter(status=0)
         return article_list
 
 

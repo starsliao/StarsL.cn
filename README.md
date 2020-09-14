@@ -1,5 +1,5 @@
 # StarsL.cn 小改动说明：
-1. 源博客只支持Python2，修改了一些代码目前支持 `Python3.6 + Django1.11.20`。
+1. 源博客只支持Python2，修改了一些代码目前支持 `Python3.6 + Django1.11.29`。
 2. 增加了标签页面，显示各个标签的文章列表。
 3. 侧边栏做了一些调整。
 4. 批量导入markdown脚本支持Python3.6，做了一些修改，可以采集摘要、随机使用logo图。`TOOLS/addblog.sh`、`TOOLS/add163md.py`
