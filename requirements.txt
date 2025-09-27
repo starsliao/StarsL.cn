@@ -1,10 +1,16 @@
-Django==2.2.28
+#conda create -n s python=3.6
+#conda install -c conda-forge mysqlclient
+#python manage.py runserver 0:8000
+Django==1.11.29
 Pillow
 pytz
 python3-memcached
 django-smtp-ssl
 mysqlclient
-gunicorn
-gevent
+gunicorn==20.0.4
+gevent==1.4.0
+greenlet==0.4.15
 markdown2
+requests
+feedparser
 #qiniu
